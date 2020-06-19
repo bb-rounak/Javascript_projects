@@ -1,0 +1,32 @@
+.container{
+	border: 1px solid black;
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.flex-box-container-1{
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+.flex-box-container-1 div{
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+
+.btn1{
+	background-color: lightgreen;
+	height: 50px;
+	width: 100px;
+}
+
+.btn2{
+	background-color: tomato;
+	height: 50px;
+	width: 100px;
+}
