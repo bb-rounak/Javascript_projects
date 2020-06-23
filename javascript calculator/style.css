@@ -1,0 +1,31 @@
+body{
+	background-color: gray;
+}
+
+input[type=button] {
+	width: 60px;
+	height: 40px;
+	margin-top: 5px;
+}
+
+input[type=text] {
+	width: 258px;
+	height: 30px;
+	border: 1px solid white;
+	background: black;
+	color: white;
+	text-align: right;
+}
+
+table{
+	margin: auto;
+	padding-top: 50px;
+}
+
+#btn{
+	background: rgb(172,57,57);
+}
+
+#btn2{
+	background: rgb(0,68,102);
+}

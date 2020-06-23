@@ -1,0 +1,58 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Javascript Calculator
+	</title>
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+	<div id="container">
+		<form name="Calculator">
+			<table>
+				<tr>
+					<td colspan="4">
+						<input id="result"type="text" name="output" disabled >
+					</td>
+				</tr>
+				<tr>
+					<td><input type="button" name="one" value="1" onclick="number('1')"></td>
+					<td><input type="button" name="two" value="2" onclick="number('2')"></td>
+					<td><input type="button" name="three" value="3" onclick="number('3')"></td>
+					<td><input type="button" name="plus" value="+" onclick="number('+')"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" name="four" value="4"onclick="number('4')"></td>
+					<td><input type="button" name="five" value="5"onclick="number('5')"></td>
+					<td><input type="button" name="six" value="6"onclick="number('6')"></td>
+					<td><input type="button" name="minus" value="-" onclick="number('-')"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" name="seven" value="7"onclick="number('7')"></td>
+					<td><input type="button" name="eight" value="8"onclick="number('8')"></td>
+					<td><input type="button" name="nine" value="9"onclick="number('9')"></td>
+					<td><input type="button" name="mul" value="X" onclick="number('*')"></td>
+				</tr>
+
+				<tr>
+					<td><input id="btn"type="button" name="c" value="C" onclick="reset()"></td>
+					<td><input type="button" name="zero" value="0" onclick="number('0')"></td>
+					<td><input id="btn2"type="button" name="equal" value="=" onclick="solve()"></td>
+					<td><input type="button" name="divi" value="/" onclick="number('/')"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+
+
+
+
+
+
+
+	<script src="home.js"></script>
+</body>
+</html>
