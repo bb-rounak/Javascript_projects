@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Note Manager</title>
+	<link rel="stylesheet"  href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="container">
+	<header>
+		<h2>Note Manager</h2>
+		<form id="search-note">
+			<input type="text" placeholder="Search Note..">
+		</form>
+	</header>
+	<div id="main-list">
+		<ul id="list">
+			<li id="li-append">
+				<p>First Note</p>
+				<p id="fonts-wrapper">
+					<i class="fa fa-pencil-square-o"></i>
+					<i class="fa fa-times"></i>
+				</p>
+				<input type="text" class="edit-note">
+			</li>
+			<li id="li-append">
+				<p>Second Note</p>
+				<p id="fonts-wrapper">
+					<i class="fa fa-pencil-square-o"></i>
+					<i class="fa fa-times"></i>
+				</p>
+				<input type="text" class="edit-note">
+			</li>
+			<li id="li-append">
+				<p>Third Note</p>
+				<p id="fonts-wrapper">
+					<i class="fa fa-pencil-square-o"></i>
+					<i class="fa fa-times"></i>
+				</p>
+				<input type="text" class="edit-note">
+			</li>
+		</ul>
+	</div>
+	<div id="hide-list">
+		<label for="hide">Hide Notes</label>
+		<input type="checkbox" id="hide">
+	</div>
+	<div id="add-notes">
+		<form id="add">
+			<input type="text" placeholder="Add a note" id="add-input">
+			<input type="submit" value="Add" id="add-btn">
+		</form>
+	</div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image:  linear-gradient(120deg,#f6d365, #fda085);
+	color: white;
+	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	min-height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+header h2{
+	margin-bottom: 20px;
+	font-size: 2rem;
+}
+
+header form input{
+	padding: 0.3rem;
+	font-size: 1rem;
+	border: none;
+	outline: none;
+}
+
+#main-list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#list{
+	min-width: 30%;
+	list-style: none;
+	font-size: 1.3rem;
+	padding: 0.5rem;
+}
+
+.edit-note{
+	display: none;
+}
+ul li{
+	margin: 0.5rem;
+	background: white;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+i{
+	padding: 2px;
+}
+
+i:hover{
+	cursor: pointer;
+}
+
+#hide-list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	color: black;
+	margin-bottom: 20px;
+}
+
+#hide-list label:hover{
+	cursor: pointer;
+}
+
+#hide{
+	margin-left: 15px;
+	display: none;
+	cursor: pointer;
+}
+
+#add-notes{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#add-input{
+	padding: 0.5rem;
+	font-size: 1rem;
+	border: none;
+	outline: none;
+}
+
+#add-btn{
+	background: rgb(73, 204, 73);
+	padding: 0.5rem;
+	border: none;
+	font-size: 1rem;
+	margin-left: 10px;
+	cursor: pointer;
+	color: white;
+}
